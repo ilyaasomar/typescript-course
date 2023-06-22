@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+.eventExample {
+  @apply flex flex-col space-y-10 mt-24;
+}
+.inputText {
+  @apply border-2 border-solid border-gray-300 px-3 py-2 rounded-md w-96;
+}
+.btn {
+  @apply border-2 px-3 py-2 rounded-md w-24 bg-green-800 text-white;
+}
+.post {
+  @apply flex flex-col space-y-2;
+}
+h1 {
+  @apply text-4xl font-bold;
+}
+p {
+  @apply text-sm font-medium;
+}
+.smBtn {
+  @apply border-2 px-2 py-1 rounded-md w-16 bg-red-400 text-white text-sm;
+}
+.useContextExample {
+  @apply flex flex-col space-y-3 justify-center items-center mt-44;
+}
+.themeBtn {
+  @apply border-2 px-3 py-4 rounded-md w-44 bg-blue-500 text-white;
+}
+.fontBtn {
+  @apply border-2 px-3 py-4 rounded-md w-44 bg-green-500 text-white;
+}
